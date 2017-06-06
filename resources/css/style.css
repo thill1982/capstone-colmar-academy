@@ -1,0 +1,209 @@
+/*Global*/
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header section */
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+
+}
+
+.menu ul {
+  display: flex;
+  padding: 0 1rem;
+}
+
+.menu li {
+  padding: 0 0.5rem;
+}
+
+/*banner section 1*/
+.banner-container {
+  display: flex;
+  background-color: lightgray;
+}
+
+.banner-container-image {
+  padding: 2rem 2.5rem 2rem 1.5rem;
+  width: 60%;
+ }
+
+.banner-container-image img {
+  max-width: 100%;
+}
+
+.banner-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+.banner-container-content h1 {
+  display: block;
+}
+
+.banner-container-content span {
+  background-color: gray;
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+/*banner section 2 with side stories*/
+
+.banner-container-2 {
+
+}
+
+.banner-container-2-image {
+
+}
+
+.banner-container-2-image img {
+
+}
+
+.banner-container-2-content {
+
+}
+
+.side-story-container {
+
+}
+
+.side-story-c1 {
+
+}
+
+.side-story-c1-image {
+
+}
+
+.side-story-c1-content {
+
+}
+
+.side-story-c2 {
+
+}
+
+.side-story-c2-image {
+
+}
+
+.side-story-c2-content {
+
+}
+
+.side-story-c3 {
+
+}
+
+.side-story-c3-image {
+
+}
+
+.side-story-c3-content {
+
+}
+
+
+
+/*
+header {
+   height: 4rem;
+}
+
+header ul {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+header li {
+  padding: 0 1rem;
+}
+
+header img {
+  padding-left: 1.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+/*
+.header-left {
+  width: 50%;
+  height: 64px;
+  overflow: hidden;
+}
+.header-left img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu {
+  float: right;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+}
+
+.header-container {
+     position: fixed;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     max-width: 100%;
+}
+*/
+
+
+
+/*courses section*/
+
+
+
+/*exhibit section - lower block*/
+
+
+
+/*footer*/
+
+footer {
+
+}
