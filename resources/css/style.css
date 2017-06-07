@@ -18,6 +18,10 @@ header {
 
 }
 
+body {
+
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -41,7 +45,7 @@ header {
 }
 
 .banner-container-image {
-  padding: 2rem 2.5rem 2rem 1.5rem;
+  padding: 2rem 1.5rem;
   width: 60%;
  }
 
@@ -55,6 +59,7 @@ header {
   align-items: flex-start;
   flex-direction: column;
   max-width: 30%;
+  padding-left: 1rem;
 }
 
 .banner-container-content h1 {
@@ -71,60 +76,30 @@ header {
 /*banner section 2 with side stories*/
 
 .banner-container-2 {
-
+  display: flex;
+  background-color: white;
 }
 
-.banner-container-2-image {
-
+.side-story-container-image {
+  width: 35%;
+  padding: 1rem;
 }
 
-.banner-container-2-image img {
-
-}
-
-.banner-container-2-content {
-
+.side-story-container-image img {
+  max-width: 100%;
 }
 
 .side-story-container {
+  display:flex;
+  width: 26.4375rem;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.side-story-content {
 
 }
 
-.side-story-c1 {
-
-}
-
-.side-story-c1-image {
-
-}
-
-.side-story-c1-content {
-
-}
-
-.side-story-c2 {
-
-}
-
-.side-story-c2-image {
-
-}
-
-.side-story-c2-content {
-
-}
-
-.side-story-c3 {
-
-}
-
-.side-story-c3-image {
-
-}
-
-.side-story-c3-content {
-
-}
 
 
 
