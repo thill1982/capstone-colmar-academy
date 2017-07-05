@@ -175,7 +175,8 @@ max-width: 90%;
 /*lower section - Thesis*/
 
 .thesis-title {
-  display: block;
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .thesis-container {
@@ -185,16 +186,30 @@ max-width: 90%;
 
 .thesis-left {
   max-width: 60%;
+
 }
 
 .thesis-left video {
   max-width: 100%;
+  padding: 0 1rem 1.5rem 1.5rem;
 }
 
 .thesis-right {
 
 }
 
+.thesis-right-block img {
+    max-width: 100%;
+}
+
+.thesis-right-block {
+  display: flex;
+  align-items: center;
+}
+
+.thesis-right-block img {
+  padding: 1rem;
+}
 footer {
 
 }
