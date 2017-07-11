@@ -91,8 +91,7 @@ max-width: 90%;
 }
 
 .news-banner-container-right {
-  display: flex;
-  flex-direction: column;
+
   max-width: 26.4375rem;
 }
 
@@ -110,7 +109,6 @@ max-width: 90%;
 
 .side-story-container-image img {
   max-width: 100%;
-
 }
 
 .side-story-container-image-bottom {
@@ -123,14 +121,10 @@ max-width: 90%;
   background-color: gray;
   display: flex;
   align-items: center;
-
 }
 
 .side-story-container-image-bottom img {
   max-width: 100%;
-
-
-
 }
 
 /* Courses section*/
@@ -182,36 +176,82 @@ max-width: 90%;
 .thesis-container {
 
   display: flex;
+  padding-bottom: 2rem;
 }
 
 .thesis-left {
   max-width: 60%;
+  padding: 0 1rem 2rem 1.5rem;
 
 }
 
 .thesis-left video {
   max-width: 100%;
-  padding: 0 1rem 1.5rem 1.5rem;
+  /*padding: 0 1rem 1.5rem 1.5rem;*/
+  padding-bottom: 1.5rem;
+}
+
+.thesis-left  {
+
 }
 
 .thesis-right {
-
+  max-width: 26.4375rem;
 }
 
 .thesis-right-block img {
     max-width: 100%;
 }
 
-.thesis-right-block {
+.thesis-right-block-top {
+  background-color: lightgray;
+}
+
+.thesis-right-block, .thesis-right-block-top {
   display: flex;
   align-items: center;
 }
 
-.thesis-right-block img {
+.thesis-right-block-image {
+ /*min-width: 50%;
+ min-width: 35%;
+ flex-basis: 50%;*/
+}
+
+.thesis-right-block-image img {
   padding: 1rem;
+  max-width: 100%;
 }
+
+.thesis-right-block-image-top {
+  /*min-width: 40%;*/
+
+}
+
+.thesis-right-block-top img {
+  padding: 1rem;
+  max-width: 100%;
+
+}
+
+.thesis-right-block-content {
+  padding-left: 1rem;
+}
+
+
+
 footer {
-
+  padding: 1rem 1rem 4rem 1.5rem;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* test*/
+footer ul {
+  display: flex;
+}
+
+footer li {
+  padding-left: 1rem;
+}
