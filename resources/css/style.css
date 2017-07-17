@@ -1,10 +1,29 @@
 /*Global*/
 html {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Muli', sans-serif;
   background-color: white;
   width: 100%;
   margin: 0 auto;
+}
+
+h1, h2{
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0;
 }
 
 /* Header section */
@@ -22,9 +41,19 @@ header {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
-
+  font-size: 1.3rem;
 }
 
+
+
+#logo-first {
+
+  font-weight:bold;
+}
+
+#logo-second {
+  color: #56c6e6;
+}
 .menu ul {
   display: flex;
   padding: 0 1rem;
@@ -37,7 +66,7 @@ header {
 /*main banner section*/
 .main-banner-container {
   display: flex;
-  background-color: lightgray;
+  background-color: #56c6e6;
 }
 
 .banner-container-image {
@@ -62,6 +91,11 @@ header {
   align-items: flex-start;
   flex-direction: column;
   max-width: 30%;
+
+}
+
+.main-banner-container-content span {
+  color: white;
 }
 
 .main-banner-container-content h1 {
@@ -69,7 +103,7 @@ header {
 }
 
 .main-banner-container-content span {
-  background-color: gray;
+  background-color: #2173f4;
   text-align: center;
   padding: 0.5rem 0;
   width: 100%;
@@ -88,13 +122,24 @@ header {
 
 .news-banner-container-left-content {
 max-width: 90%;
+  padding: 0 0 1.5rem 1.5rem;
 }
 
+.news-banner-container-left-content p {
+  padding: 1.5rem 0;
+}
+.biblio {
+  font-size: .75rem;
+  font-weight: bold;
+}
 .news-banner-container-right {
 
   max-width: 26.4375rem;
 }
 
+.news-banner-container-right p {
+  padding: 0.5rem 0;
+}
 .side-story-container {
   display: flex;
 
@@ -118,7 +163,7 @@ max-width: 90%;
 }
 
 .side-story-container-bottom {
-  background-color: gray;
+  background-color: #56c6e6;
   display: flex;
   align-items: center;
 }
@@ -130,7 +175,7 @@ max-width: 90%;
 /* Courses section*/
 
 .learning-parent-container {
-  background-color: lightgray;
+  background-color: #a4dbea;
   width: 100%;
 
 }
@@ -146,6 +191,7 @@ max-width: 90%;
   max-width: 95%;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding-bottom: 2rem;
 
 }
 
@@ -191,8 +237,8 @@ max-width: 90%;
   padding-bottom: 1.5rem;
 }
 
-.thesis-left  {
-
+.thesis-left  p {
+  padding-top: 1rem;
 }
 
 .thesis-right {
@@ -204,38 +250,48 @@ max-width: 90%;
 }
 
 .thesis-right-block-top {
-  background-color: lightgray;
+  background-color: #56c6e6;
+  min-width: 35%;
+  flex-basis: 50%;
 }
 
-.thesis-right-block, .thesis-right-block-top {
+.thesis-right-block {
   display: flex;
   align-items: center;
 }
 
-.thesis-right-block-image {
- /*min-width: 50%;
+.thesis-right-block-top {
+  display: flex;
+  align-items: center;
+  min-width: 35%;
+  flex-basis: 50%;
+}
+
+.thesis-right-block-bottom {
+  display: flex;
+  align-items: center;
  min-width: 35%;
- flex-basis: 50%;*/
+ flex-basis: 50%;
 }
 
-.thesis-right-block-image img {
+.thesis-right-block-bottom img {
   padding: 1rem;
-  max-width: 100%;
+  max-width: 40%;
 }
 
-.thesis-right-block-image-top {
-  /*min-width: 40%;*/
-
-}
 
 .thesis-right-block-top img {
   padding: 1rem;
-  max-width: 100%;
-
+  max-width: 40%;
 }
 
 .thesis-right-block-content {
-  padding-left: 1rem;
+  padding: 0 1.5rem;
+
+}
+.thesis-right-block-content p {
+  padding: 0.5rem 0;
+
 }
 
 
