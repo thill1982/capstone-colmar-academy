@@ -34,7 +34,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
@@ -44,16 +43,18 @@ header {
   font-size: 1.3rem;
 }
 
-
-
 #logo-first {
-
   font-weight:bold;
 }
 
 #logo-second {
   color: #56c6e6;
 }
+
+.mobile-menu li {
+  display: none;
+}
+
 .menu ul {
   display: flex;
   padding: 0 1rem;
@@ -69,16 +70,24 @@ header {
   background-color: #56c6e6;
 }
 
-.banner-container-image {
+.banner-container-image-1 {
   padding: 2rem 1.5rem;
   min-width: 60%;
 
  }
 
-.banner-container-image img {
+ .banner-container-image-2 {
+   padding: 2rem 1.5rem;
+   min-width: 60%;
+
+  }
+
+.banner-container-image-1 img {
   max-width: 100%;
+}
 
-
+.banner-container-image-2 img {
+  max-width: 100%;
 }
 
 .main-banner-container-left {
@@ -117,7 +126,6 @@ header {
 
 .news-banner-container-left {
   max-width: 60%;
-
 }
 
 .news-banner-container-left-content {
@@ -142,7 +150,6 @@ max-width: 90%;
 }
 .side-story-container {
   display: flex;
-
   align-items: center;
 }
 
@@ -162,6 +169,10 @@ max-width: 90%;
   flex-basis: 95%;
 }
 
+#mob-image {
+  display: none;
+}
+
 .side-story-container-bottom {
   background-color: #56c6e6;
   display: flex;
@@ -170,6 +181,10 @@ max-width: 90%;
 
 .side-story-container-image-bottom img {
   max-width: 100%;
+}
+
+.side-story-content {
+  padding-bottom: 1rem;
 }
 
 /* Courses section*/
@@ -233,7 +248,6 @@ max-width: 90%;
 
 .thesis-left video {
   max-width: 100%;
-  /*padding: 0 1rem 1.5rem 1.5rem;*/
   padding-bottom: 1.5rem;
 }
 
@@ -279,7 +293,6 @@ max-width: 90%;
   max-width: 40%;
 }
 
-
 .thesis-right-block-top img {
   padding: 1rem;
   max-width: 40%;
@@ -293,8 +306,6 @@ max-width: 90%;
   padding: 0.5rem 0;
 
 }
-
-
 
 footer {
   padding: 1rem 1rem 4rem 1.5rem;
@@ -310,4 +321,167 @@ footer ul {
 
 footer li {
   padding-left: 1rem;
+}
+
+/* ***Mobile Layouts*** */
+@media only screen and (max-width: 480px) {
+
+
+  .banner-container-image-2 {
+    display:none;
+  }
+
+  .banner-container-image-1 {
+    padding: 0;
+  }
+
+  .main-banner-container {
+    flex-direction: column;
+  }
+
+  .main-banner-container-left {
+    max-width: 100%;
+
+
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .main-banner-container-content {
+    max-width: 90%;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .main-banner-container-content h1 {
+    padding: 2rem 0;
+  }
+
+  .main-banner-container-content p {
+    padding-bottom: 1.5rem;
+  }
+
+  .main-banner-container-content span {
+    background-color: #2173f4;
+    text-align: center;
+    padding-bottom: 0.5rem 0;
+    width: 100%;
+  }
+
+  .news-banner-container-left-content {
+    display:none;
+  }
+
+  .side-story-container {
+    flex-direction: column;
+  }
+
+  .side-story-container-bottom {
+
+    flex-direction: column;
+
+  }
+
+/* Mobile learning section */
+  .learning-parent-container p, h3 {
+    display: none;
+  }
+
+.learning-parent-container {
+  background-color: white;
+}
+
+  .learning-container-grid {
+    flex-direction: column;
+  }
+
+  .learning-container {
+    max-width: 95%;
+
+    padding: 0.25rem 0;
+  }
+
+  .learning-container img {
+      display:none;
+  }
+
+  .learning-container-content {
+    background-color: #a4dbea;
+  }
+
+/* Mobile thesis section */
+  .thesis-right {
+    display:none;
+  }
+
+.thesis-container {
+  padding-bottom: 1.5rem;
+}
+
+.thesis-left {
+  max-width: 100%;
+  padding: 0;
+}
+
+.thesis-left video {
+  padding-bottom: 0;
+}
+
+.thesis-left h2 {
+  display: none;
+}
+
+.thesis-left p {
+  display: none;
+}
+
+/*Mobile menu and footer sections*/
+footer {
+  padding: 1rem;
+  border-top: 0;
+}
+
+footer ul {
+  display: none;
+}
+
+.mobile-menu li {
+  display: block;
+  padding: 0 2rem;
+}
+
+.main-menu li {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+header {
+  justify-content: space-around;
+}
+
+
+/* Mobile news section*/
+.side-story-container-bottom {
+  background-color: white;
+}
+
+.side-story-container-image-bottom img {
+  display: none;
+}
+
+.side-story-container-image img {
+  display: none;
+}
+
+#mob-image {
+  display: block;
+}
+
+
+/* End of mobile layout*/
 }
